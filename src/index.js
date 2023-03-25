@@ -3,6 +3,7 @@ import renderMenu from "./modules/Menu.js"
 import renderAbout from "./modules/About.js"
 import renderContact from "./modules/Contact.js"
 import renderNavigation from "./modules/Navigation.js"
+import './css/style.css';
 
 renderNavigation();
 renderHome();
