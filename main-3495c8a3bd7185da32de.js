@@ -22,14 +22,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/images/restaurant.jpg */ "./src/assets/images/restaurant.jpg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/images/hero.jpg */ "./src/assets/images/hero.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/images/hero.jpg */ "./src/assets/images/hero.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/images/restaurant.jpg */ "./src/assets/images/restaurant.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&family=Palanquin:wght@400;500;600;700&family=Reenie+Beanie&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n*, ::before, ::after {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n    list-style: none;\n}\n\nbody {\n    font-family: 'Hind', sans-serif;\n}\n\n/* HEADER */\n\nheader {\n    position: fixed;\n    top:0;\n    left:0;\n    display: flex;\n    justify-content: space-between;\n    padding: 2rem 5vw;\n    width: 100%;\n    z-index: 1;\n    gap: clamp(1.2rem, 5vw, 4rem);\n    background-color: #e44348;\n}\n\n.navbar {\n    display: flex;\n    gap: clamp(1.2rem, 5vw, 4rem);\n}\n\na {\n    cursor: pointer;\n    font-weight: 500;\n    font-size: 1.2em;\n    color: white;\n}\n\n.logo {\n    display: flex;\n    align-items: center;\n    gap: 1rem;\n}\n\n.logo-img {\n    height: 25px;\n    width: auto;\n    cursor: pointer;\n}\n\n.logo-txt {\n    visibility: hidden;\n    font-family: 'Reenie Beanie', cursive;\n    font-size: 2em;\n}\n\n/* MAIN SECTION */\n\nh1 {\n    font-family: 'Palanquin', sans-serif;\n    font-size: clamp(2.5em, 7vw, 4.5em);\n    font-weight: 400;\n    line-height: 1.2;\n}\n\nh2 {\n    font-family: 'Palanquin', sans-serif;\n    font-size: 2em;\n    font-weight: 400;\n}\n\np {\n    padding: 1rem 0;\n}\n\n.tagline {\n    padding: 4vh 0;\n    font-size: 1em;\n}\n\nimg {\n    width: 100%;\n}\n\n.container,\n.about .right-col,\n.hero .left-col {\n    padding: 8rem 10vw 4rem ;\n}\n\n.hero,\n.about {\n    display: grid;\n    height: 100vh;\n}\n\n.hero {\n    grid-template-rows: 1fr auto;\n    text-align: center;\n}\n\n.about {\n    grid-template-rows: auto 1fr;\n}\n\n.left-col {\n    grid-row-start: 2;\n    grid-column-start: 1;\n}\n\n.right-col {\n    grid-row-start: 1;\n    grid-column-start: 1;\n}\n\n.about .left-col,\n.hero .right-col {\n    background-size: cover;\n} \n\n.about .left-col {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n.hero .right-col {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\nbutton {\n    font-family: inherit;\n    background-color: black;\n    border: 1px solid black;\n    border-radius: 5px;\n    color: white;\n    cursor: pointer;\n    display: inline-block;\n    padding: 1rem 1.5rem;\n    text-align: center;\n    text-decoration: none;\n    font-weight: 500;\n    font-size: 1em;\n    width: 100%;\n}\n\nbutton:hover {\n    background-color: transparent;\n    color: black;\n  }\n\n\n/* MEDIA QUERIES */\n\n@media (min-width: 734px) {\n\n    .logo-txt {\n        visibility: visible;\n    }\n\n    button {\n        width: auto;\n    }\n}\n\n\n@media (min-width: 1024px) {\n\n    .hero,\n    .about {\n        text-align: left;\n        grid-template-columns: 1fr 1fr;\n    }\n\n    .about {\n        grid-template-rows: 1fr auto;\n    }\n\n    .left-col {\n        grid-row-start: 1;\n        grid-column-start: 1;\n    }\n    \n    .right-col {\n        grid-row-start: 1;\n        grid-column-start: 2;\n    }\n\n}", "",{"version":3,"sources":["webpack://./src/css/style.css"],"names":[],"mappings":";AAGA;IACI,sBAAsB;IACtB,SAAS;IACT,UAAU;IACV,gBAAgB;AACpB;;AAEA;IACI,+BAA+B;AACnC;;AAEA,WAAW;;AAEX;IACI,eAAe;IACf,KAAK;IACL,MAAM;IACN,aAAa;IACb,8BAA8B;IAC9B,iBAAiB;IACjB,WAAW;IACX,UAAU;IACV,6BAA6B;IAC7B,yBAAyB;AAC7B;;AAEA;IACI,aAAa;IACb,6BAA6B;AACjC;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,gBAAgB;IAChB,YAAY;AAChB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,SAAS;AACb;;AAEA;IACI,YAAY;IACZ,WAAW;IACX,eAAe;AACnB;;AAEA;IACI,kBAAkB;IAClB,qCAAqC;IACrC,cAAc;AAClB;;AAEA,iBAAiB;;AAEjB;IACI,oCAAoC;IACpC,mCAAmC;IACnC,gBAAgB;IAChB,gBAAgB;AACpB;;AAEA;IACI,oCAAoC;IACpC,cAAc;IACd,gBAAgB;AACpB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,cAAc;IACd,cAAc;AAClB;;AAEA;IACI,WAAW;AACf;;AAEA;;;IAGI,wBAAwB;AAC5B;;AAEA;;IAEI,aAAa;IACb,aAAa;AACjB;;AAEA;IACI,4BAA4B;IAC5B,kBAAkB;AACtB;;AAEA;IACI,4BAA4B;AAChC;;AAEA;IACI,iBAAiB;IACjB,oBAAoB;AACxB;;AAEA;IACI,iBAAiB;IACjB,oBAAoB;AACxB;;AAEA;;IAEI,sBAAsB;AAC1B;;AAEA;IACI,yDAAsD;AAC1D;;AAEA;IACI,yDAAgD;AACpD;;AAEA;IACI,oBAAoB;IACpB,uBAAuB;IACvB,uBAAuB;IACvB,kBAAkB;IAClB,YAAY;IACZ,eAAe;IACf,qBAAqB;IACrB,oBAAoB;IACpB,kBAAkB;IAClB,qBAAqB;IACrB,gBAAgB;IAChB,cAAc;IACd,WAAW;AACf;;AAEA;IACI,6BAA6B;IAC7B,YAAY;EACd;;;AAGF,kBAAkB;;AAElB;;IAEI;QACI,mBAAmB;IACvB;;IAEA;QACI,WAAW;IACf;AACJ;;;AAGA;;IAEI;;QAEI,gBAAgB;QAChB,8BAA8B;IAClC;;IAEA;QACI,4BAA4B;IAChC;;IAEA;QACI,iBAAiB;QACjB,oBAAoB;IACxB;;IAEA;QACI,iBAAiB;QACjB,oBAAoB;IACxB;;AAEJ","sourcesContent":["\n@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&family=Palanquin:wght@400;500;600;700&family=Reenie+Beanie&display=swap');\n\n*, ::before, ::after {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n    list-style: none;\n}\n\nbody {\n    font-family: 'Hind', sans-serif;\n}\n\n/* HEADER */\n\nheader {\n    position: fixed;\n    top:0;\n    left:0;\n    display: flex;\n    justify-content: space-between;\n    padding: 2rem 5vw;\n    width: 100%;\n    z-index: 1;\n    gap: clamp(1.2rem, 5vw, 4rem);\n    background-color: #e44348;\n}\n\n.navbar {\n    display: flex;\n    gap: clamp(1.2rem, 5vw, 4rem);\n}\n\na {\n    cursor: pointer;\n    font-weight: 500;\n    font-size: 1.2em;\n    color: white;\n}\n\n.logo {\n    display: flex;\n    align-items: center;\n    gap: 1rem;\n}\n\n.logo-img {\n    height: 25px;\n    width: auto;\n    cursor: pointer;\n}\n\n.logo-txt {\n    visibility: hidden;\n    font-family: 'Reenie Beanie', cursive;\n    font-size: 2em;\n}\n\n/* MAIN SECTION */\n\nh1 {\n    font-family: 'Palanquin', sans-serif;\n    font-size: clamp(2.5em, 7vw, 4.5em);\n    font-weight: 400;\n    line-height: 1.2;\n}\n\nh2 {\n    font-family: 'Palanquin', sans-serif;\n    font-size: 2em;\n    font-weight: 400;\n}\n\np {\n    padding: 1rem 0;\n}\n\n.tagline {\n    padding: 4vh 0;\n    font-size: 1em;\n}\n\nimg {\n    width: 100%;\n}\n\n.container,\n.about .right-col,\n.hero .left-col {\n    padding: 8rem 10vw 4rem ;\n}\n\n.hero,\n.about {\n    display: grid;\n    height: 100vh;\n}\n\n.hero {\n    grid-template-rows: 1fr auto;\n    text-align: center;\n}\n\n.about {\n    grid-template-rows: auto 1fr;\n}\n\n.left-col {\n    grid-row-start: 2;\n    grid-column-start: 1;\n}\n\n.right-col {\n    grid-row-start: 1;\n    grid-column-start: 1;\n}\n\n.about .left-col,\n.hero .right-col {\n    background-size: cover;\n} \n\n.about .left-col {\n    background-image: url(../assets/images/restaurant.jpg);\n}\n\n.hero .right-col {\n    background-image: url(../assets/images/hero.jpg);\n}\n\nbutton {\n    font-family: inherit;\n    background-color: black;\n    border: 1px solid black;\n    border-radius: 5px;\n    color: white;\n    cursor: pointer;\n    display: inline-block;\n    padding: 1rem 1.5rem;\n    text-align: center;\n    text-decoration: none;\n    font-weight: 500;\n    font-size: 1em;\n    width: 100%;\n}\n\nbutton:hover {\n    background-color: transparent;\n    color: black;\n  }\n\n\n/* MEDIA QUERIES */\n\n@media (min-width: 734px) {\n\n    .logo-txt {\n        visibility: visible;\n    }\n\n    button {\n        width: auto;\n    }\n}\n\n\n@media (min-width: 1024px) {\n\n    .hero,\n    .about {\n        text-align: left;\n        grid-template-columns: 1fr 1fr;\n    }\n\n    .about {\n        grid-template-rows: 1fr auto;\n    }\n\n    .left-col {\n        grid-row-start: 1;\n        grid-column-start: 1;\n    }\n    \n    .right-col {\n        grid-row-start: 1;\n        grid-column-start: 2;\n    }\n\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n*, ::before, ::after {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n    list-style: none;\n}\n\nbody {\n    font-family: 'Hind', sans-serif;\n}\n\n/* HEADER */\n\nheader {\n    position: fixed;\n    top:0;\n    left:0;\n    display: flex;\n    justify-content: space-between;\n    padding: 2rem 5vw;\n    width: 100%;\n    z-index: 1;\n    gap: clamp(1.2rem, 5vw, 4rem);\n    background-color: #e44348;\n}\n\n.navbar {\n    display: flex;\n    gap: clamp(1.2rem, 5vw, 4rem);\n}\n\na {\n    cursor: pointer;\n    font-weight: 500;\n    font-size: 1.2em;\n    color: white;\n}\n\n.logo {\n    display: flex;\n    align-items: center;\n    gap: 1rem;\n}\n\n.logo-img {\n    height: 25px;\n    width: auto;\n    cursor: pointer;\n}\n\n.logo-txt {\n    visibility: hidden;\n    font-family: 'Reenie Beanie', cursive;\n    font-size: 2em;\n}\n\n/* HOME PAGE */\n\nh1 {\n    font-family: 'Palanquin', sans-serif;\n    font-size: clamp(2.5em, 7vw, 4.5em);\n    font-weight: 400;\n    line-height: 1.2;\n}\n\nh2 {\n    font-family: 'Palanquin', sans-serif;\n    font-size: 2em;\n    font-weight: 400;\n}\n\np {\n    padding: 1rem 0;\n}\n\n.tagline {\n    padding: 4vh 0;\n    font-size: 1em;\n}\n\nimg {\n    width: 100%;\n}\n\n.container {\n    padding-top: 6rem;\n    height: 100vh;\n}\n\n.grid-wrapper {\n    display: grid;\n}\n\n.img-block {\n    background-size: cover;\n}\n\n.text-block {\n    padding: 4rem 10vw;\n}\n\n.hero-container {\n    grid-template-rows: 1fr auto;\n    text-align: center;\n}\n\n.hero-container .img-block {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\nbutton,\ninput[type=\"submit\"] {\n    font-family: inherit;\n    background-color: black;\n    border: 1px solid black;\n    border-radius: 5px;\n    color: white;\n    cursor: pointer;\n    display: inline-block;\n    padding: 0.5rem 2rem;\n    text-align: center;\n    text-decoration: none;\n    font-weight: 600;\n    font-size: 1em;\n    width: 100%;\n}\n\nbutton:hover,\ninput[type=\"submit\"]:hover {\n    background-color: transparent;\n    color: black;\n}\n\n\n/* ABOUT PAGE */\n\n.about-container {\n    grid-template-rows: 1fr auto;\n} \n\n.about-container .img-block {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\n/* CONTACT PAGE */\n\n.contact-container {\n    padding: 8rem 5vw 0;\n}\n\n.contact-container .grid-wrapper {\n    padding-top: 1rem; \n}\n\n.map-block iframe {\n    height:100%;\n    width:100%;\n    border: 0;\n}\n\nform {\n    display: grid;\n    background-color: #faf1e4;\n    padding: 1.5rem 1rem;\n    gap: 0.5rem;\n}\n    \n.form-group {\n    display: grid;\n    padding-top: 0.5rem;\n}\n    \n.form-group.wide {\n    grid-column: 1 / -1;\n    margin: 0.2rem 0;\n    text-align: left;\n}\n\nlabel {\n    font-family: inherit;\n    color: black;\n}\n\ninput[type=\"text\"],\ninput[type=\"email\"],\ntextarea {\n    font-family: inherit;\n    border: none;\n    padding: 0.5rem 1rem;\n}\n\n/* MEDIA QUERIES */\n\n@media (min-width: 734px) {\n\n    .logo-txt {\n        visibility: visible;\n    }\n\n    button {\n        width: auto;\n    }\n\n    form {\n        grid-template-columns: 1fr 1fr;\n    }\n\n    .form-group:last-child {\n        margin: 1rem auto;\n        padding-top: 2rem;\n    }\n}\n\n@media (min-width: 1024px) {\n\n    .grid-wrapper {\n        text-align: left;\n        grid-template-columns: 1fr 1fr;\n    }\n\n    .text-block {\n        padding: 12rem 5vw;\n    }\n\n    .about-container {\n        grid-template-rows: 1fr auto;\n    }\n\n    .about-container .img-block {\n        grid-row-start: 1;\n        grid-column-start: 1;\n    }\n    \n    .hero-container .img-block {\n        grid-row-start: 1;\n        grid-column-start: 2;\n    }\n\n    .contact-container {\n        padding: 8rem 20vw 0;\n    }\n\n}", "",{"version":3,"sources":["webpack://./src/css/style.css"],"names":[],"mappings":";AAGA;IACI,sBAAsB;IACtB,SAAS;IACT,UAAU;IACV,gBAAgB;AACpB;;AAEA;IACI,+BAA+B;AACnC;;AAEA,WAAW;;AAEX;IACI,eAAe;IACf,KAAK;IACL,MAAM;IACN,aAAa;IACb,8BAA8B;IAC9B,iBAAiB;IACjB,WAAW;IACX,UAAU;IACV,6BAA6B;IAC7B,yBAAyB;AAC7B;;AAEA;IACI,aAAa;IACb,6BAA6B;AACjC;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,gBAAgB;IAChB,YAAY;AAChB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,SAAS;AACb;;AAEA;IACI,YAAY;IACZ,WAAW;IACX,eAAe;AACnB;;AAEA;IACI,kBAAkB;IAClB,qCAAqC;IACrC,cAAc;AAClB;;AAEA,cAAc;;AAEd;IACI,oCAAoC;IACpC,mCAAmC;IACnC,gBAAgB;IAChB,gBAAgB;AACpB;;AAEA;IACI,oCAAoC;IACpC,cAAc;IACd,gBAAgB;AACpB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,cAAc;IACd,cAAc;AAClB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,iBAAiB;IACjB,aAAa;AACjB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,sBAAsB;AAC1B;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,4BAA4B;IAC5B,kBAAkB;AACtB;;AAEA;IACI,yDAAgD;AACpD;;AAEA;;IAEI,oBAAoB;IACpB,uBAAuB;IACvB,uBAAuB;IACvB,kBAAkB;IAClB,YAAY;IACZ,eAAe;IACf,qBAAqB;IACrB,oBAAoB;IACpB,kBAAkB;IAClB,qBAAqB;IACrB,gBAAgB;IAChB,cAAc;IACd,WAAW;AACf;;AAEA;;IAEI,6BAA6B;IAC7B,YAAY;AAChB;;;AAGA,eAAe;;AAEf;IACI,4BAA4B;AAChC;;AAEA;IACI,yDAAsD;AAC1D;;AAEA,iBAAiB;;AAEjB;IACI,mBAAmB;AACvB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,WAAW;IACX,UAAU;IACV,SAAS;AACb;;AAEA;IACI,aAAa;IACb,yBAAyB;IACzB,oBAAoB;IACpB,WAAW;AACf;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,mBAAmB;IACnB,gBAAgB;IAChB,gBAAgB;AACpB;;AAEA;IACI,oBAAoB;IACpB,YAAY;AAChB;;AAEA;;;IAGI,oBAAoB;IACpB,YAAY;IACZ,oBAAoB;AACxB;;AAEA,kBAAkB;;AAElB;;IAEI;QACI,mBAAmB;IACvB;;IAEA;QACI,WAAW;IACf;;IAEA;QACI,8BAA8B;IAClC;;IAEA;QACI,iBAAiB;QACjB,iBAAiB;IACrB;AACJ;;AAEA;;IAEI;QACI,gBAAgB;QAChB,8BAA8B;IAClC;;IAEA;QACI,kBAAkB;IACtB;;IAEA;QACI,4BAA4B;IAChC;;IAEA;QACI,iBAAiB;QACjB,oBAAoB;IACxB;;IAEA;QACI,iBAAiB;QACjB,oBAAoB;IACxB;;IAEA;QACI,oBAAoB;IACxB;;AAEJ","sourcesContent":["\n@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&family=Palanquin:wght@400;500;600;700&family=Reenie+Beanie&display=swap');\n\n*, ::before, ::after {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n    list-style: none;\n}\n\nbody {\n    font-family: 'Hind', sans-serif;\n}\n\n/* HEADER */\n\nheader {\n    position: fixed;\n    top:0;\n    left:0;\n    display: flex;\n    justify-content: space-between;\n    padding: 2rem 5vw;\n    width: 100%;\n    z-index: 1;\n    gap: clamp(1.2rem, 5vw, 4rem);\n    background-color: #e44348;\n}\n\n.navbar {\n    display: flex;\n    gap: clamp(1.2rem, 5vw, 4rem);\n}\n\na {\n    cursor: pointer;\n    font-weight: 500;\n    font-size: 1.2em;\n    color: white;\n}\n\n.logo {\n    display: flex;\n    align-items: center;\n    gap: 1rem;\n}\n\n.logo-img {\n    height: 25px;\n    width: auto;\n    cursor: pointer;\n}\n\n.logo-txt {\n    visibility: hidden;\n    font-family: 'Reenie Beanie', cursive;\n    font-size: 2em;\n}\n\n/* HOME PAGE */\n\nh1 {\n    font-family: 'Palanquin', sans-serif;\n    font-size: clamp(2.5em, 7vw, 4.5em);\n    font-weight: 400;\n    line-height: 1.2;\n}\n\nh2 {\n    font-family: 'Palanquin', sans-serif;\n    font-size: 2em;\n    font-weight: 400;\n}\n\np {\n    padding: 1rem 0;\n}\n\n.tagline {\n    padding: 4vh 0;\n    font-size: 1em;\n}\n\nimg {\n    width: 100%;\n}\n\n.container {\n    padding-top: 6rem;\n    height: 100vh;\n}\n\n.grid-wrapper {\n    display: grid;\n}\n\n.img-block {\n    background-size: cover;\n}\n\n.text-block {\n    padding: 4rem 10vw;\n}\n\n.hero-container {\n    grid-template-rows: 1fr auto;\n    text-align: center;\n}\n\n.hero-container .img-block {\n    background-image: url(../assets/images/hero.jpg);\n}\n\nbutton,\ninput[type=\"submit\"] {\n    font-family: inherit;\n    background-color: black;\n    border: 1px solid black;\n    border-radius: 5px;\n    color: white;\n    cursor: pointer;\n    display: inline-block;\n    padding: 0.5rem 2rem;\n    text-align: center;\n    text-decoration: none;\n    font-weight: 600;\n    font-size: 1em;\n    width: 100%;\n}\n\nbutton:hover,\ninput[type=\"submit\"]:hover {\n    background-color: transparent;\n    color: black;\n}\n\n\n/* ABOUT PAGE */\n\n.about-container {\n    grid-template-rows: 1fr auto;\n} \n\n.about-container .img-block {\n    background-image: url(../assets/images/restaurant.jpg);\n}\n\n/* CONTACT PAGE */\n\n.contact-container {\n    padding: 8rem 5vw 0;\n}\n\n.contact-container .grid-wrapper {\n    padding-top: 1rem; \n}\n\n.map-block iframe {\n    height:100%;\n    width:100%;\n    border: 0;\n}\n\nform {\n    display: grid;\n    background-color: #faf1e4;\n    padding: 1.5rem 1rem;\n    gap: 0.5rem;\n}\n    \n.form-group {\n    display: grid;\n    padding-top: 0.5rem;\n}\n    \n.form-group.wide {\n    grid-column: 1 / -1;\n    margin: 0.2rem 0;\n    text-align: left;\n}\n\nlabel {\n    font-family: inherit;\n    color: black;\n}\n\ninput[type=\"text\"],\ninput[type=\"email\"],\ntextarea {\n    font-family: inherit;\n    border: none;\n    padding: 0.5rem 1rem;\n}\n\n/* MEDIA QUERIES */\n\n@media (min-width: 734px) {\n\n    .logo-txt {\n        visibility: visible;\n    }\n\n    button {\n        width: auto;\n    }\n\n    form {\n        grid-template-columns: 1fr 1fr;\n    }\n\n    .form-group:last-child {\n        margin: 1rem auto;\n        padding-top: 2rem;\n    }\n}\n\n@media (min-width: 1024px) {\n\n    .grid-wrapper {\n        text-align: left;\n        grid-template-columns: 1fr 1fr;\n    }\n\n    .text-block {\n        padding: 12rem 5vw;\n    }\n\n    .about-container {\n        grid-template-rows: 1fr auto;\n    }\n\n    .about-container .img-block {\n        grid-row-start: 1;\n        grid-column-start: 1;\n    }\n    \n    .hero-container .img-block {\n        grid-row-start: 1;\n        grid-column-start: 2;\n    }\n\n    .contact-container {\n        padding: 8rem 20vw 0;\n    }\n\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -527,11 +527,9 @@ __webpack_require__.r(__webpack_exports__);
 const main = document.querySelector("main");
 
 function renderAbout() {
-    const container = new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class: "about"}, [
-        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class: "left-col"}, [
-            // new Element("img", {class:"photo"}),
-        ]),    
-        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class: "right-col"}, [
+    const container = new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class: "container about-container grid-wrapper"}, [
+        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class: "img-block"}),    
+        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class: "text-block"}, [
             new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("h2").setTextContent("WHO ARE WE?"),
             new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("p").setTextContent("At our noodle restaurant located in the sunny city of Montpellier, we take pride in offering a unique dining experience that combines the best of traditional Japanese noodles with a modern twist."),
             new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("p").setTextContent("Our passion for creating fresh and authentic dishes inspired by the rich culture and flavors of Japan drives everything we do. From our handcrafted noodles made daily to our carefully curated ingredients, we strive to bring you a truly exceptional culinary journey."),               
@@ -555,15 +553,73 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* binding */ renderContact)
 /* harmony export */ });
 /* harmony import */ var _Element_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Element.js */ "./src/modules/Element.js");
+/* eslint-disable no-useless-escape */
 
 
 const main = document.querySelector("main");
 
 function renderContact() {
-    const container = new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class: "container"}, [
-        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("h2").setTextContent("FIND US"),
-    ])
-    
+    const container = new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class: "container contact-container"}, [
+        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("h2").setTextContent("CONTACT US"),
+        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class: "grid-wrapper"}, [
+            new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class:"form-block"}, [
+                new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("form", {action:"#", method:"POST", name:"contact-form"}, [
+                    new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class:"form-group"}, [
+                        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("label", {for:"first-name"}).setTextContent("First name"),
+                        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("input", {
+                            type:"text",
+                            name:"first-name",
+                            pattern:"^[A-Za-z]{1,70}$"
+                        }),
+                    ]),
+                    new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class:"form-group"}, [
+                        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("label", {for:"last-name"}).setTextContent("Last name"),
+                        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("input", {
+                            type:"text",
+                            name:"last-name",
+                            pattern:"^[A-Za-z]{1,70}$"
+                        }),
+                    ]),
+                    new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class:"form-group"}, [
+                        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("label", {for:"email"}).setTextContent("Email address"),
+                        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("input", {
+                            type:"email",
+                            name:"email",
+                            pattern:"^[-\w\.]+@([-\w]+\.)+[-\w]{2,}$"
+                        }),
+                    ]),
+                    new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class:"form-group"}, [
+                        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("label", {for:"phone-nb"}).setTextContent("Phone number"),
+                        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("input", {
+                            type:"text",
+                            name:"phone-nb",
+                            pattern:"^[0-9]{10}$"
+                        }),
+                    ]),
+                    new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class:"form-group wide"}, [
+                        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("label", {for:"message-content"}).setTextContent("Message"),
+                        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("textarea", {
+                            name:"message-content",
+                            rows:6
+                        }),
+                    ]),
+                    new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class:"form-group wide"}, [
+                        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("input", {
+                            type:"submit",
+                            value:"SEND"
+                        }),
+                    ]),
+                ]),
+            ]),    
+            new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class: "map-block"}, [
+                new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("iframe", {
+                    src:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46221.33399458303!2d3.8391500388676385!3d43.610010855326266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6af0725dd9db1%3A0xad8756742894e802!2sMontpellier!5e0!3m2!1sfr!2sfr!4v1679740103050!5m2!1sfr!2sfr", 
+                    loading:"lazy",
+                    referrerpolicy:"no-referrer-when-downgrade"
+                    })
+                ]),
+            ]),
+        ])
     main.appendChild(container.render());
 }
 
@@ -631,14 +687,14 @@ __webpack_require__.r(__webpack_exports__);
 const main = document.querySelector("main");
 
 function renderHome() {
-    const container = new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class: "hero"}, [
-        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class: "left-col"}, [
+    const container = new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class: "container hero-container grid-wrapper"}, [
+        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class: "img-block"}, [
+            new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("img", {class:"photo"}),
+        ]),
+        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class: "text-block"}, [
             new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("h1").setTextContent("DISCOVER THE ART OF NOODLE MAKING"),
             new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("p", {class:"tagline"}).setTextContent("Freshly Handcrafted Noodles Every Day"),
-            new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("button", {class:"cta-btn"}).setTextContent("Explore Our Menu"),
-        ]),
-        new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("div", {class: "right-col"}, [
-            new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("img", {class:"photo"}),
+            new _Element_js__WEBPACK_IMPORTED_MODULE_0__["default"]("button", {class:"cta-btn"}).setTextContent("EXPLORE OUR MENU"),
         ]),
     ])
 main.appendChild(container.render());
@@ -946,4 +1002,4 @@ contactLink.addEventListener("click", () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main-9a6e3b5350b8fadd5d89.js.map
+//# sourceMappingURL=main-3495c8a3bd7185da32de.js.map
