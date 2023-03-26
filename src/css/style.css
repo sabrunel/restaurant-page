@@ -57,7 +57,7 @@ a {
     font-size: 2em;
 }
 
-/* MAIN SECTION */
+/* HOME PAGE */
 
 h1 {
     font-family: 'Palanquin', sans-serif;
@@ -85,51 +85,34 @@ img {
     width: 100%;
 }
 
-.container,
-.about .right-col,
-.hero .left-col {
-    padding: 8rem 10vw 4rem ;
-}
-
-.hero,
-.about {
-    display: grid;
+.container {
+    padding-top: 6rem;
     height: 100vh;
 }
 
-.hero {
+.grid-wrapper {
+    display: grid;
+}
+
+.img-block {
+    background-size: cover;
+}
+
+.text-block {
+    padding: 4rem 10vw;
+}
+
+.hero-container {
     grid-template-rows: 1fr auto;
     text-align: center;
 }
 
-.about {
-    grid-template-rows: auto 1fr;
-}
-
-.left-col {
-    grid-row-start: 2;
-    grid-column-start: 1;
-}
-
-.right-col {
-    grid-row-start: 1;
-    grid-column-start: 1;
-}
-
-.about .left-col,
-.hero .right-col {
-    background-size: cover;
-} 
-
-.about .left-col {
-    background-image: url(../assets/images/restaurant.jpg);
-}
-
-.hero .right-col {
+.hero-container .img-block {
     background-image: url(../assets/images/hero.jpg);
 }
 
-button {
+button,
+input[type="submit"] {
     font-family: inherit;
     background-color: black;
     border: 1px solid black;
@@ -137,19 +120,77 @@ button {
     color: white;
     cursor: pointer;
     display: inline-block;
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 2rem;
     text-align: center;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1em;
     width: 100%;
 }
 
-button:hover {
+button:hover,
+input[type="submit"]:hover {
     background-color: transparent;
     color: black;
-  }
+}
 
+
+/* ABOUT PAGE */
+
+.about-container {
+    grid-template-rows: 1fr auto;
+} 
+
+.about-container .img-block {
+    background-image: url(../assets/images/restaurant.jpg);
+}
+
+/* CONTACT PAGE */
+
+.contact-container {
+    padding: 8rem 5vw 0;
+}
+
+.contact-container .grid-wrapper {
+    padding-top: 1rem; 
+}
+
+.map-block iframe {
+    height:100%;
+    width:100%;
+    border: 0;
+}
+
+form {
+    display: grid;
+    background-color: #faf1e4;
+    padding: 1.5rem 1rem;
+    gap: 0.5rem;
+}
+    
+.form-group {
+    display: grid;
+    padding-top: 0.5rem;
+}
+    
+.form-group.wide {
+    grid-column: 1 / -1;
+    margin: 0.2rem 0;
+    text-align: left;
+}
+
+label {
+    font-family: inherit;
+    color: black;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    font-family: inherit;
+    border: none;
+    padding: 0.5rem 1rem;
+}
 
 /* MEDIA QUERIES */
 
@@ -162,29 +203,44 @@ button:hover {
     button {
         width: auto;
     }
-}
 
+    form {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .form-group:last-child {
+        margin: 1rem auto;
+        padding-top: 2rem;
+    }
+}
 
 @media (min-width: 1024px) {
 
-    .hero,
-    .about {
+    .grid-wrapper {
         text-align: left;
         grid-template-columns: 1fr 1fr;
     }
 
-    .about {
+    .text-block {
+        padding: 12rem 5vw;
+    }
+
+    .about-container {
         grid-template-rows: 1fr auto;
     }
 
-    .left-col {
+    .about-container .img-block {
         grid-row-start: 1;
         grid-column-start: 1;
     }
     
-    .right-col {
+    .hero-container .img-block {
         grid-row-start: 1;
         grid-column-start: 2;
+    }
+
+    .contact-container {
+        padding: 8rem 20vw 0;
     }
 
 }
