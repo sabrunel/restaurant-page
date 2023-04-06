@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&family=Palanquin:wght@400;500;600;700&family=Reenie+Beanie&display=swap');
 
+/*  GENERAL ELEMENTS */
+
 *, ::before, ::after {
     box-sizing: border-box;
     margin: 0;
@@ -11,53 +13,6 @@
 body {
     font-family: 'Hind', sans-serif;
 }
-
-/* HEADER */
-
-header {
-    position: fixed;
-    top:0;
-    left:0;
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem 5vw;
-    width: 100%;
-    z-index: 1;
-    gap: clamp(1.2rem, 5vw, 4rem);
-    background-color: #e44348;
-}
-
-.navbar {
-    display: flex;
-    gap: clamp(1.2rem, 5vw, 4rem);
-}
-
-a {
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 1.2em;
-    color: white;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-.logo-img {
-    height: 25px;
-    width: auto;
-    cursor: pointer;
-}
-
-.logo-txt {
-    visibility: hidden;
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 2em;
-}
-
-/* HOME PAGE */
 
 h1 {
     font-family: 'Palanquin', sans-serif;
@@ -70,45 +25,43 @@ h2 {
     font-family: 'Palanquin', sans-serif;
     font-size: 2em;
     font-weight: 400;
+    position:relative;
+    z-index: 0;
+}
+
+h2::before {
+    content:"";
+    position: absolute;
+    left: -0.25em;
+    top: 6%;
+    height: 0.1em;
+    width: 1.2em;
+    border-radius: 20%;
+    background-color:#e44348;
+    z-index: -1;
+}
+
+h2::after {
+    content:"";
+    position: absolute;
+    left: -0.25em;
+    top: 15%;
+    height: 0.1em;
+    width: 1.2em;
+    border-radius: 20%;
+    background-color:#e44348;
+    z-index: -1;
 }
 
 p {
     padding: 1rem 0;
 }
 
-.tagline {
-    padding: 4vh 0;
-    font-size: 1em;
-}
-
-img {
-    width: 100%;
-}
-
-.container {
-    padding-top: 6rem;
-    height: 100vh;
-}
-
-.grid-wrapper {
-    display: grid;
-}
-
-.img-block {
-    background-size: cover;
-}
-
-.text-block {
-    padding: 4rem 10vw;
-}
-
-.hero-container {
-    grid-template-rows: 1fr auto;
-    text-align: center;
-}
-
-.hero-container .img-block {
-    background-image: url(../assets/images/hero.jpg);
+a {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: white;
 }
 
 button,
@@ -132,6 +85,83 @@ button:hover,
 input[type="submit"]:hover {
     background-color: transparent;
     color: black;
+}
+
+/* HEADER */
+
+header {
+    position: fixed;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5vw;
+    width: 100%;
+    z-index: 1;
+    gap: clamp(1.2rem, 5vw, 4rem);
+    background-color: #e44348;
+}
+
+.navbar {
+    display: flex;
+    gap: clamp(1.2rem, 5vw, 4rem);
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-img {
+    height: 25px;
+    width: auto;
+    cursor: pointer;
+}
+
+.logo-txt {
+    visibility: hidden;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 2em;
+}
+
+/* HOME PAGE */
+
+.tagline {
+    padding: 4vh 0;
+    font-size: 1.3em;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    padding-top: 6rem;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.grid-wrapper {
+    display: grid;
+}
+
+.img-block {
+    background-size: cover;
+}
+
+.text-block {
+    padding: 4rem 10vw;
+}
+
+.hero-container {
+    grid-template-rows: 1fr auto;
+    text-align: center;
+}
+
+.hero-container .img-block {
+    background-image: url(../assets/images/hero.jpg);
 }
 
 /* MENU PAGE */
@@ -163,7 +193,7 @@ input[type="submit"]:hover {
     font-size: 2.5em;
 }
 
-.card-price:before {
+.card-price::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -189,7 +219,7 @@ input[type="submit"]:hover {
 /* CONTACT PAGE */
 
 .contact-container {
-    padding: 8rem 5vw 0;
+    padding: 8rem 5vw 2rem;
     background-color:#fcefdd;
 }
 
@@ -268,7 +298,8 @@ textarea {
     }
 
     .menu-container .grid-wrapper {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
     }
 
     .about-container {
@@ -285,8 +316,9 @@ textarea {
         grid-column-start: 2;
     }
 
+    .menu-container,
     .contact-container {
-        padding: 8rem 20vw 0;
+        padding: 8rem 15vw 0;
     }
 
 }
